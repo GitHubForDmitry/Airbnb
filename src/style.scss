@@ -1,4 +1,4 @@
-@import "src/var-mix";
+@import "var-mix";
 
 * {
   padding: 0;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  src: url("src/fonts/Avenir-Medium.ttf");
+  src: url("fonts/Avenir-Medium.ttf");
   font-family: "Avenir";
 }
 
@@ -22,7 +22,7 @@
     a {
       width: 30px;
       height: 30px;
-      background: url("src/images/logo.png") no-repeat center;
+      background: url("images/logo.png") no-repeat center;
       -webkit-background-size: contain;
       background-size: contain;
     }
@@ -48,7 +48,7 @@
         display: flex;
         width: 30px;
         height: 30px;
-        background: url("src/images/user.png") no-repeat center;
+        background: url("images/user.png") no-repeat center;
         -webkit-background-size: contain;
         background-size: contain;
         border-radius: 50%;
@@ -62,7 +62,7 @@
   width: 100%;
   min-height: 464px;
 
-  background: url("src/images/bg.png") no-repeat center;
+  background: url("images/bg.png") no-repeat center;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -283,5 +283,4 @@ footer {
       margin-bottom: 0;
     }
   }
-
 }
