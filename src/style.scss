@@ -203,14 +203,12 @@
     border-radius: 50%;
   }
 }
-
 .reviews__block--member {
   width: 55%;
   .reviews__block--member--text {
     @include font(40, 16, 19);
   }
 }
-
 .reviews__block--member--wrap {
   display: flex;
   margin-bottom: 23px;
@@ -225,7 +223,6 @@
     }
   }
 }
-
 .reviews__host {
   padding-top: 20px;
   width: 45%;
