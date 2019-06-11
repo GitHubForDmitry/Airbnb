@@ -162,7 +162,9 @@
   font-size: 16px;
   line-height: 19px;
 }
-.main__book form input {
+.main__book .form .date,
+.main__book .form .guest {
+  -webkit-appearance: none;
   width: 100%;
   height: 50px;
   padding: 14px 17px;
@@ -174,10 +176,14 @@
   line-height: 19px;
   outline: none !important;
 }
-.main__book form .submit {
+.main__book .form .submit {
+  width: 100%;
+  padding: 15px 10px;
+  outline: none;
   margin-top: 24px;
   background-color: #FD5C63;
   border-radius: 4px;
+  border: 1px solid #fff;
   color: #fff;
   margin-bottom: 0px;
   font-size: 16px;
@@ -185,10 +191,11 @@
   transition: 0.3s all linear;
   cursor: pointer;
 }
-.main__book form .submit:hover {
+.main__book .form .submit:hover {
   background-color: transparent;
   color: #FD5C63;
-  border: 1 px solid #FD5C63;
+  border: 1px solid #FD5C63;
+  border-radius: 4px;
 }
 
 .reviews h3 {

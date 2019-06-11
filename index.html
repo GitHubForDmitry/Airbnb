@@ -64,26 +64,30 @@
       </div>
       <div class="main__book">
         <p class="main__book--cost"><span id="cost">25</span>&#36; per night</p>
-        <form action="">
+        <form class="form">
           <label for="date">
             <input
-                    type="text"
+                    class="date"
+                    name="date"
+                    type="date"
                     placeholder="Date"
-                    id="date"
+                    id="today"
             >
           </label>
           <label for="guest">
             <input
+                    class="guest"
+                    name="guest"
                     type="text"
                     placeholder="Guests"
                     id="guest"
             >
           </label>
-          <input
+          <button
                   type="submit"
                   value="Book"
                   class="submit"
-          >
+          >Book</button>
         </form>
 
       </div>
@@ -162,5 +166,9 @@
     </div>
   </div>
 </footer>
+<script>
+  let today = new Date().toISOString().substr(0, 10);
+  document.querySelector("#today").value = today;
+</script>
 </body>
 </html>
