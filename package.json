@@ -2,6 +2,9 @@
   "name": "Airbnb",
   "version": "1.0.0",
   "dependencies": {
-    
+
+  },
+  "scripts": {
+    "sass": "sass --watch styles/ .:."
   }
 }

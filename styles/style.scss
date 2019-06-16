@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  src: url("fonts/Avenir-Medium.ttf");
+  src: url("../fonts/Avenir-Medium.ttf");
   font-family: "Avenir";
 }
 
@@ -17,16 +17,19 @@
   justify-content: space-between;
   padding: 15px 19px 15px 26px;
   box-shadow: 0 1px 0 #e1e7ed;
+}
   .header__logo {
     display: flex;
     a {
       width: 30px;
       height: 30px;
-      background: url("images/logo.png") no-repeat center;
+      background: url("../images/logo.png") no-repeat center;
       -webkit-background-size: contain;
       background-size: contain;
     }
   }
+
+
   .header__auth {
     display: flex;
     flex-direction: row;
@@ -34,42 +37,63 @@
     justify-content: space-between;
     font-family: "Avenir", sans-serif;
 
-    .header__auth--text {
+    &--text {
       a {
+        position: relative;
         margin-right: 30px;
         font-size: 16px;
         line-height: 19px;
         text-decoration: none;
+        &:after {
+          background: none repeat scroll 0 0 transparent;
+          bottom: 0;
+          content: "";
+          display: block;
+          height: 2px;
+          left: 50%;
+          position: absolute;
+          background: $black;
+          transition: width 0.3s ease 0s, left 0.3s ease 0s;
+          width: 0;
+        }
+        &:hover:after {
+          width: 100%;
+          left: 0;
+        }
+        @media screen and (max-height: 300px) {
+          ul {
+            margin-top: 40px;
+          }
+        }
+
       }
 
     }
-    .header__auth--user {
+    &--user {
       a {
         display: flex;
         width: 30px;
         height: 30px;
-        background: url("images/user.png") no-repeat center;
+        background: url("../images/user.png") no-repeat center;
         -webkit-background-size: contain;
         background-size: contain;
         border-radius: 50%;
       }
     }
   }
-}
-.bg {
-  display: block;
-  margin-bottom: 40px;
-  width: 100%;
-  min-height: 464px;
-
-  background: url("images/bg.png") no-repeat center;
-  -webkit-background-size: cover;
-  background-size: cover;
-}
 
 .container {
   width: 890px;
   margin: 0 auto;
+}
+
+.bg {
+  display: block;
+  min-height: 464px;
+  width: 100%;
+  background: url("../images/bg.png") no-repeat center;
+  background-size: cover;
+  margin-bottom: 20px;
 }
 
 .main {
@@ -110,7 +134,7 @@
     font-weight: 600;
     text-decoration: none;
   }
-  .amenities___title {
+  .amenities__title {
     @include font(21, 20, 23);
     font-weight: 600;
   }
@@ -291,3 +315,17 @@ footer {
     }
   }
 }
+
+.ham {
+  display: none;
+}
+
+.wrapper {
+  display: block;
+  height: 100%;
+  min-width: 900px;
+  min-height: 500px;
+}
+
+
+@import "media";
