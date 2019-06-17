@@ -108,7 +108,6 @@
   margin-bottom: 15px;
   font-size: 16px;
   line-height: 19px;
-  color: #687c94;
 }
 .main__head .main__porpeties {
   display: flex;
@@ -415,7 +414,7 @@ footer .footer__site-map {
   .ham {
     position: fixed;
     right: 10px;
-    top: 25px;
+    top: -10px;
     display: block;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;

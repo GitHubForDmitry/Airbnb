@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0">
+        content="width=device-width, initial-scale=1.0">
+  <meta content="user-scalable=no">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="application-name" content="Airbnb">
@@ -13,6 +14,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="msapplication-starturl" content="/?utm_source=homescreen">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Незабываемые поездки начинаются с Airbnb. Находите приключения поблизости или далеко от дома, открывайте для себя уникальное жилье, впечатления и места по всему миру."/>
   <link rel="apple-touch-icon" href="https://a0.muscache.com/airbnb/static/icons/apple-touch-icon-76x76-3b313d93b1b5823293524b9764352ac9.png" />
   <link rel="apple-touch-icon" sizes="76x76" href="https://a0.muscache.com/airbnb/static/icons/apple-touch-icon-76x76-3b313d93b1b5823293524b9764352ac9.png" />
   <link rel="apple-touch-icon" sizes="120x120" href="https://a0.muscache.com/airbnb/static/icons/apple-touch-icon-120x120-52b1adb4fe3a8f825fc4b143de12ea4b.png" />
@@ -22,25 +24,8 @@
   <link rel="shortcut icon" sizes="76x76" type="image/x-icon" href="https://a0.muscache.com/airbnb/static/logotype_favicon-21cc8e6c6a2cca43f061d2dcabdf6e58.ico" />
   <link rel="mask-icon" href="https://a0.muscache.com/airbnb/static/icons/airbnb-0611901eac33ccfa5e93d793a2e21f09.svg" color="#FF5A5F" />
   <title>Airbnb</title>
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="out/styles/bundle.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <style>
-    #pinContainer {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      -webkit-perspective: 1000;
-      perspective: 1000;
-    }
-    #slideContainer {
-      width: 400%; /* to contain 4 panels, each with 100% of window width */
-      height: 100%;
-    }
-    .panel {
-      height: 100%;
-      width: 25%; /* relative to parent -> 25% of 400% = 100% of window width */
-      float: left;
-    }</style>
 </head>
 
 <body>
@@ -57,10 +42,10 @@
       <a href="https://www.airbnb.ru/host/experiences?from_nav=1">Trips</a>
     </div>
     <div class="header__auth--text">
-      <a href="#/">Messages</a>
+      <a href="https://ru.airbnb.com/">Messages</a>
     </div>
     <div class="header__auth--user">
-      <a href="#/"></a>
+      <a href="https://ru.airbnb.com/"></a>
     </div>
   </div>
   <svg class="ham ham3" viewBox="0 0 100 100" width="80">
@@ -107,7 +92,7 @@
           </div>
         </div>
         <div class="all-amenities">
-          <a href="#/">Show All Amenities</a>
+          <a href="https://ru.airbnb.com/">Show All Amenities</a>
         </div>
       </div>
       <div class="main__book">
@@ -116,16 +101,15 @@
           <label for="today">
             <input
                     class="date"
-                    name="date"
+                    name="order"
                     type="date"
-                    placeholder="Date"
                     id="today"
             >
           </label>
           <label for="guest">
             <input
                     class="guest"
-                    name="guest"
+                    name="order"
                     type="number"
                     placeholder="Guests"
                     id="guest"
@@ -195,21 +179,21 @@
     <div class="footer__site-map">
       <div class="footer__site-map--col">
         <p>Airbnb</p>
-        <a href="#/">About</a>
-        <a href="#/">Press</a>
-        <a href="#/">Help</a>
+        <a href="https://ru.airbnb.com/">About</a>
+        <a href="https://ru.airbnb.com/">Press</a>
+        <a href="https://ru.airbnb.com/">Help</a>
       </div>
       <div class="footer__site-map--col">
         <p>Discover</p>
-        <a href="#/">Travel credit</a>
-        <a href="#/">Business</a>
-        <a href="#/">Guidebooks</a>
+        <a href="https://ru.airbnb.com/">Travel credit</a>
+        <a href="https://ru.airbnb.com/">Business</a>
+        <a href="https://ru.airbnb.com/">Guidebooks</a>
       </div>
       <div class="footer__site-map--col">
         <p>Hosting</p>
-        <a href="#/">Why host</a>
-        <a href="#/">Hospitality</a>
-        <a href="#/">Community</a>
+        <a href="https://ru.airbnb.com/">Why host</a>
+        <a href="https://ru.airbnb.com/">Hospitality</a>
+        <a href="https://ru.airbnb.com/">Community</a>
       </div>
     </div>
   </div>
