@@ -32,21 +32,31 @@
 
 <header class="header">
   <div class="header__logo">
-    <a href="index.html"></a>
+    <a href="index.html" aria-label="hidden"></a>
   </div>
   <div class="header__auth">
-    <div class="header__auth--text">
-      <a href="https://www.airbnb.ru/host/homes">Become a host</a>
-    </div>
-    <div class="header__auth--text">
-      <a href="https://www.airbnb.ru/host/experiences?from_nav=1">Trips</a>
-    </div>
-    <div class="header__auth--text">
-      <a href="https://ru.airbnb.com/">Messages</a>
-    </div>
-    <div class="header__auth--user">
-      <a href="https://ru.airbnb.com/"></a>
-    </div>
+      <a class="header__auth--text"
+         href="https://www.airbnb.ru/host/homes"
+      >
+        Become a host
+      </a>
+      <a
+              class="header__auth--text"
+              href="https://www.airbnb.ru/host/experiences?from_nav=1"
+      >
+        Trips
+      </a>
+      <a
+              class="header__auth--text"
+              href="https://ru.airbnb.com/"
+      >
+        Messages
+      </a>
+      <a
+              class="header__auth--user"
+              href="https://ru.airbnb.com/"
+      >
+      </a>
   </div>
   <svg class="ham ham3" viewBox="0 0 100 100" width="80">
     <path
@@ -98,7 +108,7 @@
       <div class="main__book">
         <p class="main__book--cost"><span id="cost">25</span>&#36; per night</p>
         <form class="form">
-          <label for="today">
+          <label>
             <input
                     class="date"
                     name="order"
@@ -127,7 +137,7 @@
   </main>
 
   <section class="reviews">
-    <h3>Reviews</h3>
+    <p class="reviews__title">Reviews</p>
     <div class="reviews__wrap">
       <div class="reviews__block">
         <div class="reviews__block--member">
@@ -161,7 +171,7 @@
         </div>
       </div>
       <div class="reviews__host">
-        <h2>Hosted by Jane</h2>
+        <p class="reviews__host--title">Hosted by Jane</p>
         <p class="reviews__host--country">Budapest, Hungary</p>
         <p class="reviews__host--text">
           Lorem ipsum dolor sit

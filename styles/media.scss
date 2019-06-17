@@ -1,6 +1,8 @@
-@media (max-width: 768px) {
+@import 'var-mix';
+
+@media (max-width: 890px) {
   .container {
-    max-width: 600px;
+    max-width: 535px;
     padding: 0 20px;
   }
 
@@ -9,7 +11,7 @@
     width: 45%;
   }
   .main__book {
-    width: 40%;
+    width: 45%;
   }
 
   .header__auth .block {
@@ -26,11 +28,11 @@
 
   .header__auth {
     display: none;
-    &--text a {
+    &--text {
       margin-right: 0;
       @include font(0, 30, 30);
     }
-    &--user a {
+    &--user {
       width: 50px;
       height: 50px;
       background-color: #fff;
@@ -98,24 +100,14 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 576px) {
   .container {
-    max-width: 300px;
-    padding: 0;
-  }
-  .header__auth {
-
-    &--text a {
-      margin-right: 0;
-      @include font(0, 22, 22);
-    }
-    &--user a {
-      width: 50px;
-      height: 50px;
-      background-color: #fff;
-    }
+    width: 90%;
+    padding: 0 5px;
   }
   .main {
+    width: 80%;
+    margin: 0 auto;
     flex-direction: column;
     align-self: center;
     &__head {
@@ -142,6 +134,55 @@
       text-align: center;
     }
   }
+  .all-amenities {
+    justify-content: center;
+  }
+  .reviews {
+    &__title {
+      text-align: center;
+    }
+    &__block {
+      align-items: center;
+    }
+    &__host {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      &--button {
+        justify-content: center;
+      }
+    }
+  }
+  .footer__site-map--col {
+    justify-content: space-between;
+     p, a {
+      text-align: center;
+    }
+  }
+  .bg {
+    height: 320px;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 300px;
+    padding: 0;
+  }
+  .header__auth {
+
+    &--text a {
+      margin-right: 0;
+      @include font(0, 22, 22);
+    }
+    &--user a {
+      width: 50px;
+      height: 50px;
+      background-color: #fff;
+    }
+  }
+
   .reviews{
     &__block--member {
       width: 100%;

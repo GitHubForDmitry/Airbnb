@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0877c59-1a58-473d-b1bb-458b8b946c43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/styles/bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/styles/bundle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/media.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/media.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css.map" afterDir="false" />
@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
+            <state relative-caret-position="418">
+              <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -52,8 +52,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/media.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="79" column="6" lean-forward="true" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="22" />
+            <state relative-caret-position="367">
+              <caret line="162" column="17" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="17" />
+              <folding>
+                <element signature="e#46#2005#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -61,17 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/styles/bundle.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+            <state relative-caret-position="110">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -79,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="317" column="4" selection-start-line="317" selection-start-column="4" selection-end-line="317" selection-end-column="4" />
+            <state relative-caret-position="345">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
             </state>
           </provider>
         </entry>
@@ -104,14 +107,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>h1</find>
-      <find>amenities__title</find>
-      <find>form</find>
-      <find>active</find>
-      <find>block</find>
-      <find>Messa</find>
-      <find>.header__auth</find>
-      <find>heade</find>
       <find>768</find>
       <find>id=&quot;me</find>
       <find>768px</find>
@@ -123,7 +118,6 @@
       <find>.conta</find>
       <find>--text</find>
       <find>bg</find>
-      <find>header</find>
       <find>header__auth</find>
       <find>ham</find>
       <find>main</find>
@@ -132,8 +126,17 @@
       <find>Ave</find>
       <find>submit</find>
       <find>scale</find>
-      <find>date</find>
       <find>ham3</find>
+      <find>date</find>
+      <find>reviews</find>
+      <find>h3</find>
+      <find>today</find>
+      <find>reviews__host</find>
+      <find>header</find>
+      <find>all-</find>
+      <find>logo</find>
+      <find>user</find>
+      <find>80%</find>
     </findStrings>
     <replaceStrings>
       <replace>https://ru.airbnb.com/</replace>
@@ -168,13 +171,14 @@
         <option value="$PROJECT_DIR$/scripts/scrollmagic/scroll.js" />
         <option value="$PROJECT_DIR$/scripts/plugins.js" />
         <option value="$PROJECT_DIR$/scripts/system.js" />
-        <option value="$PROJECT_DIR$/styles/media.scss" />
         <option value="$PROJECT_DIR$/penthouse.js" />
         <option value="$PROJECT_DIR$/outfile.css" />
         <option value="$PROJECT_DIR$/allcss.js" />
-        <option value="$PROJECT_DIR$/styles/style.scss" />
+        <option value="$USER_HOME$/MateacademyJs/gulp/commands.txt" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/styles/style.scss" />
+        <option value="$PROJECT_DIR$/styles/media.scss" />
       </list>
     </option>
   </component>
@@ -192,6 +196,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,30 +207,28 @@
             <path>
               <item name="Airbnb" type="b2602c69:ProjectViewProjectNode" />
               <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Airbnb" type="b2602c69:ProjectViewProjectNode" />
               <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Airbnb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Airbnb" type="b2602c69:ProjectViewProjectNode" />
               <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Airbnb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="style.scss" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,18 +285,19 @@
       <workItem from="1560262838415" duration="349000" />
       <workItem from="1560706002837" duration="14000000" />
       <workItem from="1560725605937" duration="2778000" />
-      <workItem from="1560728716616" duration="8329000" />
+      <workItem from="1560728716616" duration="8946000" />
+      <workItem from="1560792556025" duration="1563000" />
+      <workItem from="1560794133999" duration="1920000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49407000" />
+    <option name="totallyTimeSpent" value="53507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27670172" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28334257" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -306,7 +310,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -319,13 +323,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Загрузки/W2DG.txt" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/user.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -337,9 +334,7 @@
     <entry file="file://$PROJECT_DIR$/scripts/examples.js" />
     <entry file="file://$PROJECT_DIR$/styles/test.scss" />
     <entry file="file://$PROJECT_DIR$/styles/test.css" />
-    <entry file="file://$PROJECT_DIR$/js/_mobile/iscroll-probe.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/_mobile/iscroll-probe.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -354,81 +349,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/scrollmagic/ScrollMagic.js">
+    <entry file="file://$PROJECT_DIR$/scripts/scrollmagic/ScrollMagic.js" />
+    <entry file="file://$PROJECT_DIR$/scripts/scrollmagic/TweenMax.min.js" />
+    <entry file="file://$PROJECT_DIR$/scripts/scrollmagic/animation.gsap.js" />
+    <entry file="file://$PROJECT_DIR$/scripts/scrollmagic/jquery.min.js" />
+    <entry file="file://$PROJECT_DIR$/scripts/plugins.js" />
+    <entry file="file://$PROJECT_DIR$/scripts/system.js" />
+    <entry file="file://$PROJECT_DIR$/scripts/scrollmagic/scroll.js" />
+    <entry file="file://$PROJECT_DIR$/outfile.css" />
+    <entry file="file://$PROJECT_DIR$/allcss.js" />
+    <entry file="file://$PROJECT_DIR$/penthouse.js" />
+    <entry file="file://$PROJECT_DIR$/style.css.map" />
+    <entry file="file://$PROJECT_DIR$/style.css" />
+    <entry file="file://$USER_HOME$/MateacademyJs/gulp/commands.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="2762" column="13" lean-forward="true" selection-start-line="2762" selection-start-column="13" selection-end-line="2762" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/scrollmagic/TweenMax.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="5229" selection-start-line="16" selection-start-column="5229" selection-end-line="16" selection-end-column="5229" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/scrollmagic/animation.gsap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="306" selection-start-line="306" selection-end-line="306" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/scrollmagic/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/plugins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="1257" column="409" selection-start-line="1257" selection-start-column="409" selection-end-line="1257" selection-end-column="409" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/system.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3300">
-          <caret line="150" column="3" selection-start-line="150" selection-start-column="3" selection-end-line="150" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/scrollmagic/scroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outfile.css">
+    <entry file="file://$PROJECT_DIR$/styles/media.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/allcss.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="551" column="3" lean-forward="true" selection-start-line="551" selection-start-column="3" selection-end-line="551" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/penthouse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="22">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -438,35 +384,38 @@
     <entry file="file://$PROJECT_DIR$/out/styles/bundle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="110">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        <state relative-caret-position="418">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="317" column="4" selection-start-line="317" selection-start-column="4" selection-end-line="317" selection-end-column="4" />
+        <state relative-caret-position="345">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/media.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="79" column="6" lean-forward="true" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="22" />
+        <state relative-caret-position="367">
+          <caret line="162" column="17" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="17" />
+          <folding>
+            <element signature="e#46#2005#0" />
+          </folding>
         </state>
       </provider>
     </entry>

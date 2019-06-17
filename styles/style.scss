@@ -20,13 +20,11 @@
 }
   .header__logo {
     display: flex;
-    a {
       width: 30px;
       height: 30px;
       background: url("../images/logo.png") no-repeat center;
       -webkit-background-size: contain;
       background-size: contain;
-    }
   }
 
 
@@ -38,7 +36,6 @@
     font-family: "Avenir", sans-serif;
 
     &--text {
-      a {
         position: relative;
         margin-right: 30px;
         font-size: 16px;
@@ -65,12 +62,8 @@
             margin-top: 40px;
           }
         }
-
-      }
-
     }
     &--user {
-      a {
         display: flex;
         width: 30px;
         height: 30px;
@@ -78,7 +71,6 @@
         -webkit-background-size: contain;
         background-size: contain;
         border-radius: 50%;
-      }
     }
   }
 
@@ -213,7 +205,7 @@
 }
 
 .reviews {
-  h3 {
+  &__title {
     display: block;
     @include font(34, 28, 33);
   }
@@ -256,7 +248,7 @@
 .reviews__host {
   padding-top: 20px;
   width: 45%;
-  h2 {
+  &--title {
     font-family: "Roboto", sans-serif;
     @include font(11, 28, 33);
   }

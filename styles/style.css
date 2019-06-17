@@ -18,8 +18,6 @@
 
 .header__logo {
   display: flex;
-}
-.header__logo a {
   width: 30px;
   height: 30px;
   background: url("../images/logo.png") no-repeat center;
@@ -34,14 +32,14 @@
   justify-content: space-between;
   font-family: "Avenir", sans-serif;
 }
-.header__auth--text a {
+.header__auth--text {
   position: relative;
   margin-right: 30px;
   font-size: 16px;
   line-height: 19px;
   text-decoration: none;
 }
-.header__auth--text a:after {
+.header__auth--text:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -53,16 +51,16 @@
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-.header__auth--text a:hover:after {
+.header__auth--text:hover:after {
   width: 100%;
   left: 0;
 }
 @media screen and (max-height: 300px) {
-  .header__auth--text a ul {
+  .header__auth--text ul {
     margin-top: 40px;
   }
 }
-.header__auth--user a {
+.header__auth--user {
   display: flex;
   width: 30px;
   height: 30px;
@@ -220,7 +218,7 @@
   border-radius: 4px;
 }
 
-.reviews h3 {
+.reviews__title {
   display: block;
   margin-bottom: 34px;
   font-size: 28px;
@@ -274,7 +272,7 @@
   padding-top: 20px;
   width: 45%;
 }
-.reviews__host h2 {
+.reviews__host--title {
   font-family: "Roboto", sans-serif;
   margin-bottom: 11px;
   font-size: 28px;
@@ -355,9 +353,9 @@ footer .footer__site-map {
   min-height: 500px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 890px) {
   .container {
-    max-width: 600px;
+    max-width: 535px;
     padding: 0 20px;
   }
 
@@ -367,7 +365,7 @@ footer .footer__site-map {
   }
 
   .main__book {
-    width: 40%;
+    width: 45%;
   }
 
   .header__auth .block {
@@ -385,13 +383,13 @@ footer .footer__site-map {
   .header__auth {
     display: none;
   }
-  .header__auth--text a {
+  .header__auth--text {
     margin-right: 0;
     margin-bottom: 0px;
     font-size: 30px;
     line-height: 30px;
   }
-  .header__auth--user a {
+  .header__auth--user {
     width: 50px;
     height: 50px;
     background-color: #fff;
@@ -468,25 +466,15 @@ footer .footer__site-map {
     stroke-dashoffset: -86px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 576px) {
   .container {
-    max-width: 300px;
-    padding: 0;
-  }
-
-  .header__auth--text a {
-    margin-right: 0;
-    margin-bottom: 0px;
-    font-size: 22px;
-    line-height: 22px;
-  }
-  .header__auth--user a {
-    width: 50px;
-    height: 50px;
-    background-color: #fff;
+    width: 90%;
+    padding: 0 5px;
   }
 
   .main {
+    width: 80%;
+    margin: 0 auto;
     flex-direction: column;
     align-self: center;
   }
@@ -511,6 +499,54 @@ footer .footer__site-map {
   }
   .main .contact-host {
     text-align: center;
+  }
+
+  .all-amenities {
+    justify-content: center;
+  }
+
+  .reviews__title {
+    text-align: center;
+  }
+  .reviews__block {
+    align-items: center;
+  }
+  .reviews__host {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .reviews__host--button {
+    justify-content: center;
+  }
+
+  .footer__site-map--col {
+    justify-content: space-between;
+  }
+  .footer__site-map--col p, .footer__site-map--col a {
+    text-align: center;
+  }
+
+  .bg {
+    height: 320px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    max-width: 300px;
+    padding: 0;
+  }
+
+  .header__auth--text a {
+    margin-right: 0;
+    margin-bottom: 0px;
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .header__auth--user a {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
   }
 
   .reviews__block--member {
