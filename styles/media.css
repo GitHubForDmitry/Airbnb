@@ -177,6 +177,9 @@
 
   .main-background {
     height: 320px;
+    background: url("../images/bg-mobile.jpg") no-repeat center;
+    background-size: cover;
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 320px) {
