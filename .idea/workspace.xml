@@ -4,54 +4,23 @@
     <list default="true" id="a0877c59-1a58-473d-b1bb-458b8b946c43" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/bin/gulp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/.bin/gulp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/bin/gulp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/completion/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/completion/bash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/completion/fish" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/completion/powershell" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/completion/zsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/gulp.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/shared/ansi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/shared/cli-options.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/shared/completion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/shared/config/cli-flags.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/shared/config/env-flags.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/shared/config/load-files.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/shared/exit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/shared/get-blacklist.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/shared/log/blacklist-error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/shared/log/copy-tree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/shared/log/tasks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/shared/log/to-console.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/shared/log/verify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/shared/make-title.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/shared/register-exports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/shared/tildify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/shared/verify-dependencies.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^3.7.0/format-error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^3.7.0/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^3.7.0/log/events.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^3.7.0/log/tasks-simple.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^3.7.0/task-tree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^4.0.0-alpha.1/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^4.0.0-alpha.2/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^4.0.0/format-error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^4.0.0/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^4.0.0/log/events.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^4.0.0/log/get-task.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^4.0.0/log/sync-task.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^4.0.0/log/tasks-simple.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/node_modules/plugin-error/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/node_modules/plugin-error/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/node_modules/plugin-error/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/node_modules/plugin-error/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/node_modules/plugin-error/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/node_modules/through2/.nyc_output/28dcebf0-9c4a-47bb-900e-93fcef37bbe2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/node_modules/through2/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/node_modules/through2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/node_modules/through2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/node_modules/through2/through2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/npm-debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="217" column="36" selection-start-line="217" selection-start-column="36" selection-end-line="217" selection-end-column="36" />
+            <state relative-caret-position="286">
+              <caret line="218" column="46" selection-start-line="218" selection-start-column="46" selection-end-line="218" selection-end-column="46" />
               <folding>
                 <element signature="n#svg#0;n#button#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -92,9 +61,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/moderizr.js">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -113,18 +86,14 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="66">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -204,7 +173,6 @@
       <list>
         <option value="$PROJECT_DIR$/var-mix.scss" />
         <option value="$PROJECT_DIR$/src/style.scss" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/style.scss" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/styles/style.css" />
@@ -229,11 +197,12 @@
         <option value="$PROJECT_DIR$/outfile.css" />
         <option value="$PROJECT_DIR$/allcss.js" />
         <option value="$USER_HOME$/MateacademyJs/gulp/commands.txt" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/styles/style.scss" />
         <option value="$PROJECT_DIR$/styles/media.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/moderizr.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
       </list>
     </option>
   </component>
@@ -328,12 +297,12 @@
       <workItem from="1560728716616" duration="8946000" />
       <workItem from="1560792556025" duration="1563000" />
       <workItem from="1560794133999" duration="3459000" />
-      <workItem from="1560855714065" duration="12330000" />
+      <workItem from="1560855714065" duration="12900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67376000" />
+    <option name="totallyTimeSpent" value="67946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -377,13 +346,6 @@
     <entry file="file://$PROJECT_DIR$/styles/test.scss" />
     <entry file="file://$PROJECT_DIR$/styles/test.css" />
     <entry file="file://$PROJECT_DIR$/js/_mobile/iscroll-probe.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/var-mix.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -412,20 +374,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/media.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/style.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -466,18 +414,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modernizr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="1411" column="24" selection-start-line="1411" selection-start-column="24" selection-end-line="1411" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="217" column="36" selection-start-line="217" selection-start-column="36" selection-end-line="217" selection-end-column="36" />
+        <state relative-caret-position="286">
+          <caret line="218" column="46" selection-start-line="218" selection-start-column="46" selection-end-line="218" selection-end-column="46" />
           <folding>
             <element signature="n#svg#0;n#button#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moderizr.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
