@@ -13,7 +13,7 @@
     width: 45%;
   }
 
-  .header__auth .block {
+  .header__nav .block {
     display: block;
     position: fixed;
     top: 0;
@@ -25,19 +25,23 @@
     justify-content: space-around;
   }
 
-  .header__auth {
+  .header__nav {
     display: none;
   }
-  .header__auth--text {
+  .header__nav--text {
     margin-right: 0;
     margin-bottom: 0px;
     font-size: 30px;
     line-height: 30px;
   }
-  .header__auth--user {
+  .header__nav--link-user {
     width: 50px;
     height: 50px;
     background-color: #fff;
+  }
+
+  .header-button {
+    display: block;
   }
 
   .header .block {
@@ -128,26 +132,25 @@
     margin-right: 0;
     width: 100%;
   }
-  .main__head .amenities {
+  .main__head--amenities {
     justify-content: space-around;
   }
-  .main__head .amenities__layout:first-child {
+  .main__head--amenities--layout:first-child {
     margin-right: 0;
   }
-  .main__head .amenities__title {
+  .main__head--amenities--title {
     text-align: center;
+  }
+  .main__head--all-amenities {
+    justify-content: center;
   }
   .main__book {
     order: 0;
     width: 100%;
     margin-bottom: 10px;
   }
-  .main .contact-host {
+  .main .main__head--host {
     text-align: center;
-  }
-
-  .all-amenities {
-    justify-content: center;
   }
 
   .reviews__title {
@@ -168,11 +171,11 @@
   .footer__site-map--col {
     justify-content: space-between;
   }
-  .footer__site-map--col p, .footer__site-map--col a {
+  .footer__site-map--col h5, .footer__site-map--col a {
     text-align: center;
   }
 
-  .bg {
+  .main-background {
     height: 320px;
   }
 }
@@ -182,13 +185,13 @@
     padding: 0;
   }
 
-  .header__auth--text a {
+  .header__nav--link a {
     margin-right: 0;
     margin-bottom: 0px;
     font-size: 22px;
     line-height: 22px;
   }
-  .header__auth--user a {
+  .header__nav--link-user a {
     width: 50px;
     height: 50px;
     background-color: #fff;
@@ -211,25 +214,25 @@
     margin-bottom: 20px;
   }
 
-  footer .footer__site-map {
+  .footer__site-map {
     flex-direction: column;
     align-items: flex-start;
   }
-  footer .footer__site-map--col {
+  .footer__site-map--col {
     width: 100%;
     text-align: center;
   }
-  footer .footer__site-map--col p {
+  .footer__site-map--col p {
     margin-bottom: 25px;
     font-size: 20px;
     line-height: 24px;
   }
-  footer .footer__site-map--col a {
+  .footer__site-map--col a {
     margin-bottom: 15px;
     font-size: 19px;
     line-height: 23px;
   }
-  footer .footer__site-map--col a:last-child {
+  .footer__site-map--col a:last-child {
     margin-bottom: 15px;
   }
 }

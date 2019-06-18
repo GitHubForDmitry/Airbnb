@@ -31,33 +31,36 @@
 <body>
 
 <header class="header">
-  <div class="header__logo">
-    <a href="index.html" aria-label="hidden"></a>
+  <div class="header__logo" aria-hidden="true">
+    <a href="index.html"></a>
   </div>
-  <div class="header__auth">
-      <a class="header__auth--text"
-         href="https://www.airbnb.ru/host/homes"
-      >
-        Become a host
-      </a>
-      <a
-              class="header__auth--text"
-              href="https://www.airbnb.ru/host/experiences?from_nav=1"
-      >
-        Trips
-      </a>
-      <a
-              class="header__auth--text"
-              href="https://ru.airbnb.com/"
-      >
-        Messages
-      </a>
-      <a
-              class="header__auth--user"
-              href="https://ru.airbnb.com/"
-      >
-      </a>
-  </div>
+  <nav class="header__nav" aria-label="navigation menu">
+    <a class="header__nav--link"
+           href="https://www.airbnb.ru/host/homes"
+        >
+          Become a host
+        </a>
+        <a
+                class="header__nav--link"
+                href="https://www.airbnb.ru/host/experiences?from_nav=1"
+        >
+          Trips
+        </a>
+        <a
+                class="header__nav--link"
+                href="https://ru.airbnb.com/"
+        >
+          Messages
+        </a>
+        <a
+                class="header__nav--link-user"
+                href="https://ru.airbnb.com/"
+        >
+        </a>
+  </nav>
+
+</header>
+<button type="button" class="header-button" aria-label="Toggle navigation" aria-expanded="false">
   <svg class="ham ham3" viewBox="0 0 100 100" width="80">
     <path
             class="line top"
@@ -69,54 +72,54 @@
             class="line bottom"
             d="m 70,67 h -40 c 0,0 -3.680675,0.737051 -3.660714,-3.517857 0.02541,-5.415597 3.391687,-10.357143 10.982142,-10.357143 4.048418,0 17.88928,0.178572 23.482143,0.178572 0,2.563604 2.451177,3.403635 4.642857,3.392857 2.19168,-0.01078 4.373905,-1.369814 4.375,-3.392857 0.0011,-2.023043 -1.924401,-2.589191 -4.553571,-4.107143 -2.62917,-1.517952 -4.196429,-1.799562 -4.196429,-3.660714 0,-1.861153 2.442181,-3.118811 4.196429,-3.035715 1.754248,0.0831 4.375,0.890841 4.375,3.125 2.628634,0 6.160714,0.267857 6.160714,0.267857 l -0.178571,-2.946428 10.178571,0 -10.178571,0 v 6.696428 l 8.928571,0 -8.928571,0 v 7.142858 l 10.178571,0 -10.178571,0" />
   </svg>
-</header>
-<div class="bg">
-
-</div>
-
+</button>
+<section class="main-background"></section>
 <div class="container">
   <main class="main">
       <div class="main__head">
-        <p class="main__head--title">Quiet apartment</p>
-        <p class="main__descr">Entire aprtment</p>
-        <div class="main__porpeties">
+        <h1 class="main__head--title">Quiet apartment</h1>
+        <h2 class="main__head--description">Entire aprtment</h2>
+        <div class="main__head--properties">
           <p><span id="guests">4</span> guests</p>
           <p><span id="bed">1</span> bed</p>
           <p><span id="bath">1</span> bath</p>
         </div>
-        <p class="main__descr--text">
+        <p class="main__head--text">
           City Apartment is newly renovated in the heart of Budapest, right in the city center. Lorem ipsum dolor sit
           amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam.
         </p>
-        <a class="contact-host">Contact host</a>
-        <p class="amenities__title">Amenities</p>
-        <div class="amenities">
-          <div class="amenities__layout">
+        <h3 class="main__head--host">
+          <a href="https://ru.airbnb.com/" aria-hidden="true">Contact host</a>
+        </h3>
+        <h3 class="main__head--amenities--title">Amenities</h3>
+        <div class="main__head--amenities">
+          <div class="main__head--amenities--layout">
             <p>Elevator</p>
             <p>Washes</p>
           </div>
-          <div class="amenities__layout">
+          <div class="main__head--amenities--layout">
             <p>Hair dryer</p>
             <p>Kitchen</p>
           </div>
         </div>
-        <div class="all-amenities">
+        <h4 class="main__head--all-amenities">
           <a href="https://ru.airbnb.com/">Show All Amenities</a>
-        </div>
+        </h4>
       </div>
       <div class="main__book">
         <p class="main__book--cost"><span id="cost">25</span>&#36; per night</p>
         <form class="form">
           <label>
             <input
+                    aria-label="calendar for choosing the date of arrival in format dd/mm/year"
                     class="date"
                     name="order"
                     type="date"
-                    id="today"
+                    id="date"
             >
           </label>
-          <label for="guest">
+          <label>
             <input
                     class="guest"
                     name="order"
@@ -128,8 +131,8 @@
             >
           </label>
           <button
+                  aria-label="book an apartment"
                   type="submit"
-                  value="Book"
                   class="submit"
           >Book</button>
         </form>
@@ -137,7 +140,7 @@
   </main>
 
   <section class="reviews">
-    <p class="reviews__title">Reviews</p>
+    <h3 class="reviews__title">Reviews</h3>
     <div class="reviews__wrap">
       <div class="reviews__block">
         <div class="reviews__block--member">
@@ -171,7 +174,7 @@
         </div>
       </div>
       <div class="reviews__host">
-        <p class="reviews__host--title">Hosted by Jane</p>
+        <h2 class="reviews__host--title">Hosted by Jane</h2>
         <p class="reviews__host--country">Budapest, Hungary</p>
         <p class="reviews__host--text">
           Lorem ipsum dolor sit
@@ -184,23 +187,23 @@
     </div>
   </section>
 </div>
-<footer>
+<footer class="footer">
   <div class="container">
     <div class="footer__site-map">
       <div class="footer__site-map--col">
-        <p>Airbnb</p>
+        <h5>Airbnb</h5>
         <a href="https://ru.airbnb.com/">About</a>
         <a href="https://ru.airbnb.com/">Press</a>
         <a href="https://ru.airbnb.com/">Help</a>
       </div>
       <div class="footer__site-map--col">
-        <p>Discover</p>
+        <h5>Discover</h5>
         <a href="https://ru.airbnb.com/">Travel credit</a>
         <a href="https://ru.airbnb.com/">Business</a>
         <a href="https://ru.airbnb.com/">Guidebooks</a>
       </div>
       <div class="footer__site-map--col">
-        <p>Hosting</p>
+        <h5>Hosting</h5>
         <a href="https://ru.airbnb.com/">Why host</a>
         <a href="https://ru.airbnb.com/">Hospitality</a>
         <a href="https://ru.airbnb.com/">Community</a>
@@ -210,13 +213,22 @@
 </footer>
 <script>
   let today = new Date().toISOString().substr(0, 10);
-  document.querySelector("#today").value = today;
+  document.querySelector("input[type=date]").value = today;
   let menu = document.querySelector('.ham3');
-  let menuList = document.querySelector('.header__auth');
+  let menuBtn = document.querySelector('.header-button');
+  menuBtn.onclick = () => {
+    menuList.classList.toggle('block');
+  };
+
+  let menuList = document.querySelector('.header__nav');
   menu.onclick = () => {
     menu.classList.toggle('active');
-    menuList.classList.toggle('block');
-  }
+  };
+  menu.addEventListener('click', function () {
+    let expanded = this.getAttribute('aria-expanded') === 'true' || false;
+    this.setAttribute('aria-expanded', !expanded);
+    let menu = this.nextElementSibling;
+  });
 </script>
 </body>
 </html>
