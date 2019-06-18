@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0877c59-1a58-473d-b1bb-458b8b946c43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modernizr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/node_modules/plugin-error/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/node_modules/plugin-error/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/node_modules/plugin-error/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/node_modules/plugin-error/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/node_modules/plugin-error/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/node_modules/through2/.nyc_output/28dcebf0-9c4a-47bb-900e-93fcef37bbe2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/node_modules/through2/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/node_modules/through2/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/node_modules/through2/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/node_modules/through2/through2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp-clean-css/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/npm-debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="a0877c59-1a58-473d-b1bb-458b8b946c43" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="218" column="46" selection-start-line="218" selection-start-column="46" selection-end-line="218" selection-end-column="46" />
+            <state relative-caret-position="330">
+              <caret line="220" column="52" selection-start-line="220" selection-start-column="52" selection-end-line="220" selection-end-column="52" />
               <folding>
                 <element signature="n#svg#0;n#button#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -89,7 +69,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
@@ -101,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="116" selection-start-line="116" selection-end-line="118" selection-end-column="22" />
+            <state relative-caret-position="22">
+              <caret line="1" column="97" selection-start-line="1" selection-start-column="97" selection-end-line="1" selection-end-column="97" />
               <folding>
                 <element signature="e#2543#4060#0" />
                 <element signature="e#3106#4126#0" />
@@ -197,12 +177,13 @@
         <option value="$PROJECT_DIR$/outfile.css" />
         <option value="$PROJECT_DIR$/allcss.js" />
         <option value="$USER_HOME$/MateacademyJs/gulp/commands.txt" />
-        <option value="$PROJECT_DIR$/styles/style.scss" />
         <option value="$PROJECT_DIR$/styles/media.scss" />
         <option value="$PROJECT_DIR$/moderizr.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/styles/style.scss" />
+        <option value="$PROJECT_DIR$/scripts/1.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -227,6 +208,11 @@
             <path>
               <item name="Airbnb" type="b2602c69:ProjectViewProjectNode" />
               <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Airbnb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Airbnb" type="b2602c69:ProjectViewProjectNode" />
@@ -297,18 +283,17 @@
       <workItem from="1560728716616" duration="8946000" />
       <workItem from="1560792556025" duration="1563000" />
       <workItem from="1560794133999" duration="3459000" />
-      <workItem from="1560855714065" duration="12900000" />
+      <workItem from="1560855714065" duration="13226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67946000" />
+    <option name="totallyTimeSpent" value="68272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28666297" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28666297" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -321,7 +306,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -391,29 +376,6 @@
     <entry file="file://$PROJECT_DIR$/images/bg.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="116" selection-start-line="116" selection-end-line="118" selection-end-column="22" />
-          <folding>
-            <element signature="e#2543#4060#0" />
-            <element signature="e#3106#4126#0" />
-            <element signature="e#4137#4278#0" />
-            <element signature="e#4296#4437#0" />
-            <element signature="e#4462#4548#0" />
-            <element signature="e#4579#4811#0" />
-            <element signature="e#4827#5442#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/media.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="180" column="10" selection-start-line="180" selection-start-column="10" selection-end-line="180" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modernizr.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -428,23 +390,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="180" column="10" selection-start-line="180" selection-start-column="10" selection-end-line="180" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="97" selection-start-line="1" selection-start-column="97" selection-end-line="1" selection-end-column="97" />
+          <folding>
+            <element signature="e#2543#4060#0" />
+            <element signature="e#3106#4126#0" />
+            <element signature="e#4137#4278#0" />
+            <element signature="e#4296#4437#0" />
+            <element signature="e#4462#4548#0" />
+            <element signature="e#4579#4811#0" />
+            <element signature="e#4827#5442#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/html5-simple-date-input-polyfill.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2552">
+          <caret line="116" column="1" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="218" column="46" selection-start-line="218" selection-start-column="46" selection-end-line="218" selection-end-column="46" />
+        <state relative-caret-position="330">
+          <caret line="220" column="52" selection-start-line="220" selection-start-column="52" selection-end-line="220" selection-end-column="52" />
           <folding>
             <element signature="n#svg#0;n#button#0;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
