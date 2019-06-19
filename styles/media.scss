@@ -29,15 +29,21 @@
   .header__nav {
     display: none;
 
-    &--text {
-      margin-right: 0;
-      @include font(0, 30, 30);
-    }
+    &--dropdown-menu {
+      height: 100vh;
+      flex-direction: column;
+      justify-content: space-around;
 
-    &--link-user {
-      width: 50px;
-      height: 50px;
-      background-color: #fff;
+      &--list--link {
+        margin-right: 0;
+        @include font(0, 30, 30);
+      }
+
+      &--list--link-user {
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+      }
     }
   }
 
@@ -159,21 +165,20 @@
     &__block {
       align-items: center;
     }
+  }
+  .host {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 
-    &__host {
-      width: 80%;
-      margin: 0 auto;
-      text-align: center;
-
-      &--button {
-        justify-content: center;
-      }
+    &--button {
+      justify-content: center;
     }
   }
   .footer__site-map--col {
     justify-content: space-between;
 
-    h5, a {
+    h3, a {
       text-align: center;
     }
   }
@@ -191,9 +196,9 @@
     max-width: 300px;
     padding: 0;
   }
-  .header__nav {
+  .header__nav--dropdown-menu {
 
-    &--link a {
+    &--list--link a {
       margin-right: 0;
       @include font(0, 22, 22);
     }
@@ -213,18 +218,17 @@
         text-align: justify;
       }
     }
+  }
+  .host {
+    width: 100%;
 
-    &__host {
-      width: 100%;
+    &--text {
+      text-align: justify;
+    }
 
-      &--text {
-        text-align: justify;
-      }
-
-      &--button {
-        justify-content: space-around;
-        margin-bottom: 20px;
-      }
+    &--button {
+      justify-content: space-around;
+      margin-bottom: 20px;
     }
   }
   .footer__site-map {

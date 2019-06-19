@@ -38,33 +38,44 @@
     <a href="index.html"></a>
   </div>
   <nav class="header__nav" aria-label="navigation menu">
-    <a class="header__nav--link"
+    <ul class="header__nav--dropdown-menu">
+      <li class="header__nav--dropdown-menu--list">
+        <a class="header__nav--dropdown-menu--list--link"
            href="https://www.airbnb.ru/host/homes"
         >
           Become a host
         </a>
+      </li>
+      <li class="header__nav--dropdown-menu--list">
         <a
-                class="header__nav--link"
+                class="header__nav--dropdown-menu--list--link"
                 href="https://www.airbnb.ru/host/experiences?from_nav=1"
         >
           Trips
         </a>
+      </li>
+      <li class="header__nav--dropdown-menu--list">
         <a
-                class="header__nav--link"
+                class="header__nav--dropdown-menu--list--link"
                 href="https://ru.airbnb.com/"
         >
           Messages
         </a>
+      </li>
+      <li class="header__nav--dropdown-menu--list">
         <a
-                class="header__nav--link-user"
+                aria-label="profile"
+                class="header__nav--dropdown-menu--list--link-user"
                 href="https://ru.airbnb.com/"
         >
         </a>
+      </li>
+    </ul>
   </nav>
 
 </header>
 <button type="button" class="header-button" aria-label="Toggle navigation" aria-expanded="false">
-  <svg class="ham ham3" viewBox="0 0 100 100" width="80">
+  <svg role="img" aria-label="" class="ham ham3" viewBox="0 0 100 100" width="80">
     <path
             class="line top"
             d="m 70,33 h -40 c -11.092231,0 11.883874,13.496726 -3.420361,12.956839 -0.962502,-2.089471 -2.222071,-3.282996 -4.545687,-3.282996 -2.323616,0 -5.113897,2.622752 -5.113897,7.071068 0,4.448316 2.080609,7.007933 5.555839,7.007933 2.401943,0 2.96769,-1.283974 4.166879,-3.282995 2.209342,0.273823 4.031294,1.642466 5.857227,-0.252538 v -13.005715 16.288404 h 7.653568" />
@@ -93,27 +104,60 @@
           minim veniam.
         </p>
         <h3 class="main__head--host">
-          <a href="https://ru.airbnb.com/" aria-hidden="true">Contact host</a>
+          <a href="https://ru.airbnb.com/" aria-label="contact the owner">Contact host</a>
         </h3>
-        <h3 class="main__head--amenities--title">Amenities</h3>
-        <div class="main__head--amenities">
-          <div class="main__head--amenities--layout">
-            <p>Elevator</p>
-            <p>Washes</p>
-          </div>
-          <div class="main__head--amenities--layout">
-            <p>Hair dryer</p>
-            <p>Kitchen</p>
-          </div>
+        <h3 class="main__head--amenities--title">
+          Amenities
+        </h3>
+        <div class="main__head--amenities" role="navigation" aria-label="amenities">
+          <ul>
+            <li>
+              <a
+                      class="main__head--amenities--layout"
+                      href="https://ru.airbnb.com/"
+                      aria-label="elevator"
+              >
+                Elevator
+              </a>
+            </li>
+            <li>
+              <a
+                      class="main__head--amenities--layout"
+                      href="https://ru.airbnb.com/"
+                      aria-label="washes"
+              >
+                Washes
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a
+                      class="main__head--amenities--layout"
+                      href="https://ru.airbnb.com/"
+                      aria-label="hair dryer"
+              >
+                Hair dryer
+              </a>
+            </li>
+            <li>
+              <a
+                      class="main__head--amenities--layout"
+                      href="https://ru.airbnb.com/"
+                      aria-label="hair dryer"
+              >
+                Kitchen
+              </a>
+            </li>
+          </ul>
         </div>
         <h4 class="main__head--all-amenities">
-          <a href="https://ru.airbnb.com/">Show All Amenities</a>
+          <a href="https://ru.airbnb.com/" aria-label="get acquaint with all the amenities">Show All Amenities</a>
         </h4>
       </div>
       <div class="main__book">
         <p class="main__book--cost"><span id="cost">25</span>&#36; per night</p>
         <form class="form">
-          <label>
             <input
                     aria-label="calendar for choosing the date of arrival in format dd/mm/year"
                     class="date"
@@ -121,8 +165,6 @@
                     type="date"
                     id="date"
             >
-          </label>
-          <label>
             <input
                     class="guest"
                     name="order"
@@ -132,7 +174,6 @@
                     min="1"
                     max="10"
             >
-          </label>
           <button
                   aria-label="book an apartment"
                   type="submit"
@@ -176,40 +217,95 @@
           </p>
         </div>
       </div>
-      <div class="reviews__host">
-        <h2 class="reviews__host--title">Hosted by Jane</h2>
-        <p class="reviews__host--country">Budapest, Hungary</p>
-        <p class="reviews__host--text">
-          Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-        <div class="reviews__host--button">
-          <a href="#">Contact Host</a>
-        </div>
       </div>
-    </div>
   </section>
+
+  <div class="host">
+    <h2 class="host--title">Hosted by Jane</h2>
+    <p class="host--country">Budapest, Hungary</p>
+    <p class="host--text">
+      Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+    <button class="host--button" aria-label="contact the owner">
+      Contact Host
+    </button>
+  </div>
 </div>
+
 <footer class="footer">
   <div class="container">
     <div class="footer__site-map">
       <div class="footer__site-map--col">
-        <h5>Airbnb</h5>
-        <a href="https://ru.airbnb.com/">About</a>
-        <a href="https://ru.airbnb.com/">Press</a>
-        <a href="https://ru.airbnb.com/">Help</a>
+        <h3 class="footer__site-map--col--title">Airbnb</h3>
+        <a
+                class="footer__site-map--col--link"
+                href="https://ru.airbnb.com/"
+                aria-label="go to Airbnb page 'about' "
+        >About
+        </a>
+        <a
+                class="footer__site-map--col--link"
+                href="https://ru.airbnb.com/"
+                aria-label="go to Airbnb page 'press' "
+        >
+          Press
+        </a>
+        <a
+                class="footer__site-map--col--link"
+                href="https://ru.airbnb.com/"
+                aria-label="go to Airbnb page 'help' "
+        >
+          Help
+        </a>
       </div>
       <div class="footer__site-map--col">
-        <h5>Discover</h5>
-        <a href="https://ru.airbnb.com/">Travel credit</a>
-        <a href="https://ru.airbnb.com/">Business</a>
-        <a href="https://ru.airbnb.com/">Guidebooks</a>
+        <h3 class="footer__site-map--col--title">Discover</h3>
+        <a
+                class="footer__site-map--col--link"
+                href="https://ru.airbnb.com/"
+                aria-label="go to Discover page 'travel credit' "
+        >
+          Travel credit
+        </a>
+        <a
+                class="footer__site-map--col--link"
+                href="https://ru.airbnb.com/"
+                aria-label="go to Discover page 'business' "
+        >
+          Business
+        </a>
+        <a
+                class="footer__site-map--col--link"
+                href="https://ru.airbnb.com/"
+                aria-label="go to Discover page 'guidebooks' "
+        >
+          Guidebooks
+        </a>
       </div>
       <div class="footer__site-map--col">
-        <h5>Hosting</h5>
-        <a href="https://ru.airbnb.com/">Why host</a>
-        <a href="https://ru.airbnb.com/">Hospitality</a>
-        <a href="https://ru.airbnb.com/">Community</a>
+        <h3 class="footer__site-map--col--title">Hosting</h3>
+        <a
+                class="footer__site-map--col--link"
+                href="https://ru.airbnb.com/"
+                aria-label="go to Hosting page 'why host' "
+        >
+          Why host
+        </a>
+        <a
+                class="footer__site-map--col--link"
+                href="https://ru.airbnb.com/"
+                aria-label="go to Hosting page 'hospitality' "
+        >
+          Hospitality
+        </a>
+        <a
+                class="footer__site-map--col--link"
+                href="https://ru.airbnb.com/"
+                aria-label="go to Hosting page 'community' "
+        >
+          Community
+        </a>
       </div>
     </div>
   </div>
