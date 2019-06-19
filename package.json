@@ -1,0 +1,15 @@
+{
+  "name": "Airbnb",
+  "version": "1.0.0",
+  "dependencies": {
+    "html5-simple-date-input-polyfill": "^1.1.0"
+  },
+  "scripts": {
+    "sass": "sass --watch styles/ .:."
+  },
+  "devDependencies": {
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat-css": "^3.1.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1"
+  }
+}

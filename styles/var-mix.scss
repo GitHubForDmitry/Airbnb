@@ -1,0 +1,9 @@
+$black: #3D4E61;
+$red: #FD5C63;
+$green: #118488;
+
+@mixin font($mb,  $fs, $lh) {
+  margin-bottom: $mb + px;
+  font-size: $fs + px;
+  line-height: $lh + px;
+}

@@ -1,0 +1,256 @@
+@import 'var-mix';
+
+@media (max-width: 890px) {
+  .container {
+    max-width: 535px;
+    padding: 0 20px;
+  }
+
+  .main__head {
+    margin-right: 20px;
+    width: 45%;
+  }
+  .main__book {
+    width: 45%;
+  }
+
+  .header__nav .block {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, .6);
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .header__nav {
+    display: none;
+
+    &--dropdown-menu {
+      height: 100vh;
+      flex-direction: column;
+      justify-content: space-around;
+
+      &--list--link {
+        margin-right: 0;
+        @include font(0, 30, 30);
+      }
+
+      &--list--link-user {
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+      }
+    }
+  }
+
+  .header-button {
+    display: block;
+  }
+
+  .header .block {
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .6);
+  }
+  .ham {
+    position: fixed;
+    right: 10px;
+    top: -10px;
+    display: block;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 1;
+  }
+  .hamRotate.active {
+    transform: rotate(45deg);
+  }
+  .hamRotate180.active {
+    transform: rotate(180deg);
+  }
+  .line {
+    fill: none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke: #000;
+    stroke-width: 5.5;
+    stroke-linecap: round;
+  }
+  .ham3 .top {
+    stroke-dasharray: 40 130;
+  }
+  .ham3 .middle {
+    stroke-dasharray: 40 140;
+  }
+  .ham3 .bottom {
+    stroke-dasharray: 40 205;
+  }
+  .ham3.active .top {
+    stroke-dasharray: 75 130;
+    stroke-dashoffset: -63px;
+  }
+  .ham3.active .middle {
+    stroke-dashoffset: -102px;
+  }
+  .ham3.active .bottom {
+    stroke-dasharray: 110 205;
+    stroke-dashoffset: -86px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 90%;
+    padding: 0 5px;
+  }
+  .main {
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-self: center;
+
+    &__head {
+      order: 1;
+      margin-right: 0;
+      width: 100%;
+
+      &--amenities {
+        justify-content: space-around;
+
+        &--layout:first-child {
+          margin-right: 0;
+        }
+      }
+
+      &--amenities--title {
+        text-align: center;
+      }
+
+      &--all-amenities {
+        justify-content: center;
+      }
+    }
+
+    &__book {
+      order: 0;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    & .main__head--host {
+      text-align: center;
+    }
+  }
+
+  .reviews {
+    &__title {
+      text-align: center;
+    }
+
+    &__block {
+      align-items: center;
+    }
+  }
+  .host {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+    &--button {
+      justify-content: center;
+      margin: 0 auto 75px;
+    }
+  }
+  .footer__site-map--col {
+    justify-content: space-between;
+
+    h3, a {
+      text-align: center;
+    }
+  }
+  .main-background {
+    height: 320px;
+    background: url("../images/bg-mobile.jpg") no-repeat center;
+    background-size: cover;
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 300px;
+    padding: 0;
+  }
+  .header__nav--dropdown-menu {
+
+    &--list--link a {
+      margin-right: 0;
+      @include font(0, 22, 22);
+    }
+
+    &--link-user a {
+      width: 50px;
+      height: 50px;
+      background-color: #fff;
+    }
+  }
+
+  .reviews {
+    &__block--member {
+      width: 100%;
+
+      &--text {
+        text-align: justify;
+      }
+    }
+  }
+  .host {
+    width: 100%;
+
+    &--text {
+      text-align: justify;
+    }
+
+    &--button {
+      justify-content: space-around;
+      margin-bottom: 20px;
+    }
+  }
+  .footer__site-map {
+    flex-direction: column;
+    align-items: flex-start;
+
+    &--col {
+      width: 100%;
+      text-align: center;
+
+      p {
+        @include font(25, 20, 24);
+      }
+
+      a {
+        @include font(15, 19, 23);
+
+        &:last-child {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
